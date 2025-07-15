@@ -6,7 +6,7 @@ import { LoadTestConfig, EndpointsConfig } from "./types/config";
 import { parseCSV, templateObject, prepareWeightedEndpoints, selectFromPrepared } from "./utils";
 
 // Path to config folder, change this to the config you want to use
-const config_folder_path: string = "config/vdi_orchestration";
+const config_folder_path: string = "config/example";
 
 // Import configuration files
 const loadTestConfig: LoadTestConfig = JSON.parse(open(`../${config_folder_path}/config.json`));
