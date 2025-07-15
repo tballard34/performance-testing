@@ -1,0 +1,38 @@
+{
+    "endpoints": [
+        {
+            "name": "start",
+            "traffic_weight": 100,
+            "data_file": "data.csv",
+            "url": "/v1/endpoint/start",
+            "method": "POST",
+            "headers": {
+                "JWT": "fake_jwt_1234567890"
+            },
+            "body": {
+                "parameter": "{{parameter}}",
+                "param1": "param1_value",
+                "param2": "param2_value",
+                "param3": {
+                    "{{parameter}}": {
+                        "param4": "param4_value",
+                        "user_id": "{{user_id}}"
+                    }
+                }
+            }
+        },
+        {
+            "name": "test",
+            "traffic_weight": 100,
+            "data_file": "data.csv",
+            "url": "/v1/endpoint/test",
+            "method": "GET",
+            "headers": {
+                "JWT": "fake_jwt_1234567890"
+            },
+            "body": {
+                "temp": "temp"
+            }
+        }
+    ]
+}
