@@ -1,0 +1,26 @@
+{
+    "name": "k6-typescript-load-testing",
+    "version": "1.0.0",
+    "description": "K6 load testing with TypeScript support",
+    "main": "dist/script.js",
+    "scripts": {
+        "build": "webpack",
+        "build:watch": "webpack --watch",
+        "test": "pnpm build && k6 run --out json=results/results.json dist/script.js",
+        "clean": "rm -rf dist"
+    },
+    "devDependencies": {
+        "@types/k6": "^0.47.0",
+        "typescript": "^5.3.0",
+        "webpack": "^5.89.0",
+        "webpack-cli": "^5.1.4",
+        "ts-loader": "^9.5.1"
+    },
+    "keywords": [
+        "k6",
+        "load-testing",
+        "typescript"
+    ],
+    "author": "",
+    "license": "MIT"
+}
