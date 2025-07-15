@@ -28,7 +28,7 @@ A powerful, data-driven load testing framework built with k6 and TypeScript, spe
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd vdi-load-testing
+cd performance-testing
 
 # Install dependencies
 pnpm install
@@ -42,7 +42,7 @@ pnpm test
 
 # Or build separately
 pnpm build
-k6 run dist/script.js
+k6 run dist/script.js  # requests will fail because the exmaple config is setup with dummy values
 ```
 
 ## 📁 Project Structure (subject to change)
