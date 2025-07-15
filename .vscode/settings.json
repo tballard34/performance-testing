@@ -1,0 +1,38 @@
+{
+  "editor.tabSize": 4,
+  "editor.formatOnSave": false,
+  "prettier.printWidth": 120,
+  "prettier.tabWidth": 4,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.associations": {
+    "*.gitignore": "gitignore"
+  },
+  "[gitignore]": {
+    "editor.formatOnSave": false
+  },
+  // format on save filetypes
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true
+  },
+}
